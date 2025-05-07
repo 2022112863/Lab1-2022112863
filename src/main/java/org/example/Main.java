@@ -26,8 +26,7 @@ public class Main {
             int ch;
             while ((ch = reader.read()) != -1) {
                 char c = (char) ch;
-                result.append(Character.isLetter(c)? Character.toLowerCase(c) : ' ');
-            }
+                result.append(Character.isLetter(c)? Character.toLowerCase(c) : ' ');}
         } catch (IOException e) {
             System.err.println("无法打开文件: " + e.getMessage());
             return null;
