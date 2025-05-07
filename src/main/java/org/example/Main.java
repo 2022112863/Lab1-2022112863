@@ -181,8 +181,7 @@ public class Main {
             }
             newText.append(words[words.length - 1]);
             System.out.println("生成的新文本：");
-            System.out.println(newText.toString());
-        }
+            System.out.println(newText.toString());}
     }
 
     // 查询最短路径（支持1个或2个单词）
