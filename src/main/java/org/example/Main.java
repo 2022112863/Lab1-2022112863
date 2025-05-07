@@ -83,7 +83,7 @@ public class Main {
     public static void queryBridgeWords(Map<String, Map<String, Integer>> graph) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("/******************** 查询桥接词 ********************/");
-        System.out.println("请输入两个单词（用空格分隔），或输入 exit 退出：");
+        System.out.println("请输入两个单词（用空格分隔），或者输入 exit 退出：");
         while (true) {
             System.out.print("> ");
             String line = scanner.nextLine().trim();
