@@ -142,6 +142,7 @@ public class Main {
         System.out.println("图像生成完毕: " + pngFilePath);
     }
 
+    
     public static void generateNewText(Map<String, Map<String, Integer>> graph) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("/******************** 生成包含桥接词的新文本 ********************/");
