@@ -44,8 +44,7 @@ public class Main {
             if (from.isEmpty() || to.isEmpty()) continue;
             graph.putIfAbsent(from, new HashMap<>());
             Map<String, Integer> edges = graph.get(from);
-            edges.put(to, edges.getOrDefault(to, 0) + 1);
-        }
+            edges.put(to, edges.getOrDefault(to, 0) + 1);}
         return graph;
     }
 
