@@ -73,8 +73,7 @@ public class Main {
                 if (edge != null) {
                     jGraph.setEdgeWeight(edge, weight);
                 }
-            }
-        }
+            }}
         return jGraph;
     }
 
